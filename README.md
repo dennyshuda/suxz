@@ -28,7 +28,7 @@ This online course platform features a captivating hero section with an illustra
 
 ## Deploy
 
-- [vercel](https://agency-denny.vercel.app/)
+- [vercel](https://suxz.vercel.app/)
 
 ## My process
 
