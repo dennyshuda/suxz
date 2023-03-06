@@ -179,6 +179,87 @@ body {
   margin-left: 20px;
 }
 
+.learning {
+  padding: 50px 0;
+}
+
+.learning__head {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.learning__sub {
+  text-transform: uppercase;
+  color: var(--primary);
+  font-size: var(--text-xl);
+  font-weight: bold;
+}
+
+.learning__title {
+  font-size: var(--text-5xl);
+  font-weight: bold;
+  margin: 20px 0;
+  line-height: 1.3;
+}
+
+.learning__description {
+  font-size: var(--text-xl);
+  font-weight: 500;
+  max-width: 70%;
+  line-height: 1.3;
+}
+
+.learning__body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 30px;
+  max-width: 250px;
+  min-width: 200px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: var(--primary);
+  color: #fff;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.card > * {
+  margin: 20px 0;
+}
+
+.card__title {
+  font-size: var(--text-xl);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card__description {
+  line-height: 1.3;
+}
+
+.card__button {
+  display: block;
+  padding: 10px 40px;
+  font-size: var(--text-lg);
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  background-color: var(--tertiary);
+  text-align: center;
+}
+
+.about {
+  padding: 50px 0;
+}
+
 .about__wrapper {
   display: flex;
   gap: 0 100px;
@@ -444,12 +525,14 @@ body {
   }
 
   .hero__sub,
+  .learning__sub,
   .about__sub,
   .testimonial__sub {
     font-size: var(--text-xl);
   }
 
   .hero__title,
+  .learning__title,
   .about__title,
   .company__title,
   .testimonial__title {
@@ -457,6 +540,7 @@ body {
   }
 
   .hero__description,
+  .learning__description,
   .about__description,
   .company__description,
   .testimonial__description {
@@ -469,6 +553,23 @@ body {
 
   .hero__image img {
     position: static;
+  }
+
+  .learning {
+    padding: 50px 0;
+  }
+
+  .learning__head {
+    width: 100%;
+  }
+
+  .learning__body {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .about {
+    padding: 50px 0;
   }
 
   .about__wrapper {
@@ -558,12 +659,14 @@ body {
   }
 
   .hero__sub,
+  .learning__sub,
   .about__sub,
   .testimonial__sub {
     font-size: var(--text-xl);
   }
 
   .hero__title,
+  .learning__title,
   .about__title,
   .company__title,
   .testimonial__title {
@@ -571,10 +674,24 @@ body {
   }
 
   .hero__description,
+  .learning__description,
   .about__description,
   .company__description,
   .testimonial__description {
     font-size: var(--text-lg);
+  }
+
+  .learning {
+    padding: 50px 0;
+  }
+
+  .learning__head {
+    width: 100%;
+  }
+
+  .learning__body {
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
   }
 
   .hero__image {
@@ -583,6 +700,10 @@ body {
 
   .hero__image img {
     position: static;
+  }
+
+  .about {
+    padding: 50px 0;
   }
 
   .about__wrapper {
